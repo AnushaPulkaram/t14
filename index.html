@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <!--label highlets the area where we click and for=id should have the same name-->
+    <div>
+    <input type="text" name="myName" id="name">
+    </div>
+    <div>
+    Role:<input type="text" name="myRole">
+    </div>
+    <div>
+    EMail:<input type="email" name="myMail">
+    </div>
+    <div>
+    Mobile Number:<input type="text" name="mynumber">
+    </div>
+    <div>
+    Bonus:<input type="number" name="myName">
+    </div>
+    <div>
+    Are you Eligible:<input type="checkbox" name="myEligibility"></div>
+    <div>
+    Gender:Female<input type="radio" name="myGender" >
+           Male<input type="radio" name="myGender">
+    Others<input type="radio" name="myGender">
+    </div>
+    <div>
+    Date:<input type="date" name="myDate">
+    </div>
+        <div><!--for options to select-->
+        <label for="car">Select the car you want:</label>
+        <select name="myCar" id="car">
+            <option value="ind">Indica</option>
+            <option value="swi">Swift</option>
+            <option value="bmw">BMW</option>
+            </select>
+        </div>
+    <div>
+        <input type="submit" value="submit">
+    </div>
+    <div>
+    <input type="reset" value="Reset">
+    </div>
+    </form>
+    </body></html>
